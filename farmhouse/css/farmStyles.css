@@ -1,0 +1,81 @@
+/*Put all fonts here!*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap');
+
+
+/*These are the default styles*/
+body {
+    background-color: #E0DBCD;
+    /*change the font*/
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1,
+h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+/**************************header***********************/
+header {
+    background-color: #205946;
+    /*center but the text*/
+    text-align: center;
+    /*add padding - 30 pixels*/
+    padding: 30px;
+}
+
+/*only one thing on the page that is different - use an ID*/
+/*hashtag # - Octothorpe */
+#diffI {
+    color: red;
+}
+
+/*************************navigation bar****************/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #460707;
+    /*fixed top*/
+    position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+/*hover state for the nav buttons*/
+/*pseudo-class for hovering*/
+nav a:hover{
+    background-color: rgb(152, 31, 31);
+}
+
+
+/**************************section***********************/
+section {
+    background-color: #4A4D51;
+    /*no pixel amount - use percent or vw - viewport width*/
+    width: 60vw;
+    /*center the sections but top & bottom pacing is none*/
+    /*top, bottom - left and right*/
+    margin: 0 auto;
+    /*adds space inside the sections*/
+    padding: 20px;
+}
+
+/*CLASS - reusable bit of css that you can put on elements*/
+/*start in css with a dot (period)*/
+.alternate {
+    background-color: #474041;
+}
